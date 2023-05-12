@@ -2,7 +2,7 @@
 
 # StreetRacing
 
-StreetRacing ist ein einfaches Spiel, bei dem der Spieler ein Auto steuert und von anderen Autos ausweichen muss. Der Spieler muss auch Münzen sammeln, um Punkte zu sammeln. Das Spiel endet, wenn der Spieler ein Hindernis berührt.
+StreetRacing ist ein einfaches Spiel, bei dem der Spieler ein Auto steuert und von anderen Autos ausweichen muss. Der Spieler kann auch Münzen sammeln, um Punkte zu sammeln. Das Spiel endet, wenn der Spieler ein Hindernis berührt.
 
 <img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand1.png?raw=true" width="33%" height="33%"> <img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand2.png?raw=true" width="33%" height="33%"> <img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand3.png?raw=true" width="33%" height="33%">
 
