@@ -3,10 +3,9 @@
 # StreetRacing
 Das Programm implementiert ein einfaches Spiel, bei dem der Spieler ein Auto steuert und von anderen Autos ausweichen muss. Der Spieler muss auch Münzen sammeln, um Punkte zu sammeln. Das Spiel endet, wenn der Spieler ein Hindernis berührt.
 
-![Spielstand1](https://github.com/b1gm0/StreetRacing/blob/main/Spielstand1.png?raw=true)
-<img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand1.png?raw=true" width="10%" height="10%">
-![Spielstand2](https://github.com/b1gm0/StreetRacing/blob/main/Spielstand2.png?raw=true)
-![Spielstand3](https://github.com/b1gm0/StreetRacing/blob/main/Spielstand3.png?raw=true)
+<img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand1.png?raw=true" width="25%" height="25%">
+<img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand2.png?raw=true" width="25%" height="25%">
+<img src="https://github.com/b1gm0/StreetRacing/blob/main/Spielstand3.png?raw=true" width="25%" height="25%">
 
 ## Anleitung
 1. Kopiere den Ordner "game" lokal auf deinen Computer
