@@ -11,3 +11,7 @@ Das Programm implementiert ein einfaches Spiel, bei dem der Spieler ein Auto ste
 3. Führe das Spiel mit dem Befehl "python3 StreetRacing.py" aus
 
 ![Ausführung](https://github.com/b1gm0/StreetRacing/blob/main/Ausfuehrung.png?raw=true)
+
+## Lizenz
+
+MIT-Lizenz
