@@ -60,8 +60,7 @@ Geometry_Dash_Beast_Mode_music = pygame.mixer.Sound("Geometry-Dash-Beast-Mode.wa
 Geometry_Dash_Base_After_Base_music = pygame.mixer.Sound("Geometry-Dash-Base-After-Base.wav")
 Geometry_Dash_Back_on_Track_music = pygame.mixer.Sound("Geometry-Dash-Back-on-Track.wav")
 Geometry_Dash_Airborne_Robots_music = pygame.mixer.Sound("Geometry-Dash-Airborne-Robots.wav")
-Dogs_of_War_music = pygame.mixer.Sound("Dogs-of-War.wav")
-music = [pygame.mixer.Sound(Dogs_of_War_music), pygame.mixer.Sound(Geometry_Dash_Clubstep_music), pygame.mixer.Sound(Geometry_Dash_Cant_Let_Go_music), pygame.mixer.Sound(Geometry_Dash_Blast_Processing_music), pygame.mixer.Sound(Geometry_Dash_Beast_Mode_music), pygame.mixer.Sound(Geometry_Dash_Base_After_Base_music), pygame.mixer.Sound(Geometry_Dash_Back_on_Track_music), pygame.mixer.Sound(Geometry_Dash_Airborne_Robots_music)]
+music = [pygame.mixer.Sound(Geometry_Dash_Clubstep_music), pygame.mixer.Sound(Geometry_Dash_Cant_Let_Go_music), pygame.mixer.Sound(Geometry_Dash_Blast_Processing_music), pygame.mixer.Sound(Geometry_Dash_Beast_Mode_music), pygame.mixer.Sound(Geometry_Dash_Base_After_Base_music), pygame.mixer.Sound(Geometry_Dash_Back_on_Track_music), pygame.mixer.Sound(Geometry_Dash_Airborne_Robots_music)]
 
 # Soundkanäle
 game_over_sound_channel1 = pygame.mixer.Channel(0)
