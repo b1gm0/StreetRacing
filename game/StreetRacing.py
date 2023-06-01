@@ -107,12 +107,13 @@ font = pygame.font.Font(None, 35)
 score = 0
 highscore = 0 # initialisieren des Highscores
 
-#Highscore-Definierungen
+# Highscore-Definierungen
 def update_highscore(score):
     global highscore
     if coin_score > highscore:
         highscore = coin_score
 
+# Neustart-Definierungen
 def restart_program():
     python = sys.executable
     os.execl(python, python, *sys.argv)
@@ -178,22 +179,22 @@ while menu_running:
     # Play-Button zeichnen
     play_button_text = font.render("PLAY", True, black)
     play_button_rect = play_button_text.get_rect(center=(screen_width/2, screen_height/2))
-    play_button_rect.inflate_ip(140, 60) # Increase the size of the button rectangle
+    play_button_rect.inflate_ip(140, 60) # Vergrößern des Schaltflächenrechtecks
     pygame.draw.rect(screen, white, play_button_rect, border_radius=90)
     pygame.draw.rect(screen, black, play_button_rect, border_radius=90, width=5)
 
-    play_button_text = pygame.font.Font(None, 50).render("PLAY", True, black) # Increase the font size
+    play_button_text = pygame.font.Font(None, 50).render("PLAY", True, black) # Vergrößern der Schriftgröße
     play_button_text_rect = play_button_text.get_rect(center=(play_button_rect.centerx, play_button_rect.centery)) # Center the text within the button
     screen.blit(play_button_text, play_button_text_rect)
     
     # Quit-Button zeichnen
     quit_button_text = font.render("QUIT", True, black)
     quit_button_rect = quit_button_text.get_rect(center=(screen_width/2, 600))
-    quit_button_rect.inflate_ip(140, 60) # Increase the size of the button rectangle
+    quit_button_rect.inflate_ip(140, 60) # Vergrößern des Schaltflächenrechtecks
     pygame.draw.rect(screen, white, quit_button_rect, border_radius=90)
     pygame.draw.rect(screen, black, quit_button_rect, border_radius=90, width=5)
 
-    quit_button_text = pygame.font.Font(None, 50).render("QUIT", True, black) # Increase the font size
+    quit_button_text = pygame.font.Font(None, 50).render("QUIT", True, black) # Vergrößern der Schriftgröße
     quit_button_text_rect = quit_button_text.get_rect(center=(quit_button_rect.centerx, quit_button_rect.centery)) # Center the text within the button
     screen.blit(quit_button_text, quit_button_text_rect)
     
