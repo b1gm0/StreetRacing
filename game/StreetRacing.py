@@ -141,7 +141,7 @@ while menu_running:
     # Ereignisschleife
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            pygame.quit()
+            menu_running = False
         elif event.type == pygame.MOUSEBUTTONDOWN:
             # Wenn der Benutzer auf den Play-Button klickt, starte das Spiel
             mouse_pos = pygame.mouse.get_pos()
